@@ -1,0 +1,44 @@
+#nav0{
+    display: flex;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    background-color: white;
+}
+a{
+    padding-left: 20px;
+    color: grey;
+    text-decoration-line:none ;
+}
+a:hover{
+    color: black;
+}
+body{
+    background-color: whitesmoke;
+}
+
+#body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#heading h5{
+    padding-top: 5px;
+    justify-content: center;
+}
+#heading button{
+    padding-top: 25px;
+}
